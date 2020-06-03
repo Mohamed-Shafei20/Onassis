@@ -1,0 +1,527 @@
+/*
+    ===========================
+     public style
+    ===========================
+*/
+
+*,::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*
+    ===========================
+     navbar style
+    ===========================
+*/
+
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    right: -200px;
+    transition: all 1s ease-in-out;
+}
+ .active{
+    right: 0;
+}
+.navbar .navb span{
+      display: block;
+      width: 15px;
+      height: 1px;
+      background-color: rgb(255, 255, 255);
+      margin: 5px 10px 5px;
+     
+}
+.navbar .navb{
+    cursor: pointer;
+    float: left;
+    padding: 5px 3px;
+    margin: 20px 20px 0;
+    
+    background-color: rgba(0, 0, 0, .3);
+}
+.bar{
+    width: 200px;
+    height: 1000px;
+    float: left;
+    overflow: hidden;
+    background-color: rgba(26,26,26,1);
+}
+.navbar .bar .pan{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    font-size: 25px;
+   
+}
+.navbar .bar .pan a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar .bar .pan a:hover{
+    color:#f85c37;
+}
+.navbar .bar .pan1{
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 10px;
+    background-color: #555;
+    color: rgba(255,255,255,.5);
+    padding: 5px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.navbar .bar .pan1:hover{
+    color: white;
+}
+.bar .list{
+    clear: both;
+    margin-left: 10px;
+    list-style: none;
+    
+}
+.bar .list li{
+    margin-bottom: 10%;
+}
+.bar .list li a{
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    
+    color: rgba(255,255,255,.5);
+}
+.bar .list li a:hover{
+
+    color: white;
+}
+.bar .list1{
+    margin-left: 10px;
+    list-style: none;
+}
+.bar .list1 li{
+     
+    display: inline-block;
+    margin-left: 10px;
+}
+/*
+    ===========================
+    header part2 style
+    ===========================
+*/
+.hear{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+    font-family:"Raleway";
+    color: white;
+
+}
+.hear h1{
+    font-size: 130px;
+    margin-bottom: 3%;
+}
+.hear p{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+/*
+    ===========================
+    meadia header  style
+    ===========================
+*/
+@media(max-width:750px){
+      .hear{
+          margin-top: 30%;
+      }
+      .hear h1{
+          font-size: 70px;
+      }
+      .hear p{
+          font-size: 50px;
+          font-weight: normal;
+      }
+
+}
+
+/*
+    ===========================
+      body style
+    ===========================
+*/
+
+.part,.part5{
+    text-align: center;
+    margin: 4% 0 2%;
+    font-size: 24px;
+    color: rgb(47, 47, 47);
+    font-weight: 600;
+    font-family:"Raleway";
+    letter-spacing: 2px;
+}
+.part span,.part5 span{
+    color: rgb(123, 123, 123);
+}
+.part1{
+    margin-bottom: 0%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.part1 .pure{
+    text-align: center;
+    font-weight: 200;
+    margin: 4% 0 2%;
+    font-family:"Raleway";
+    font-size:24px;
+    font-weight: 100;
+    color: #333;
+}
+.pur{
+    width: 87%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.pur .lab,.pur .lab1,.pur .lab2,.pur .lab3{
+     width: 25%;
+     font-family: "Raleway";
+     text-align: center;
+     
+     overflow: hidden;
+}
+
+.pur .img{
+    margin: 3% 0;
+}
+.pur  .toc{
+    margin: 5% 0;
+    font-size: 14px;
+    line-height: 2em;
+}
+.pur .lon{
+    margin-bottom: 3%;
+}
+/*
+    ===========================
+     media style
+    ===========================
+*/
+@media (max-width:1170px){
+     .pur{
+         display: block;
+     }
+    .pur .lab,.pur .lab1,.pur .lab2,.pur .lab3{
+           
+        width: 100%;
+    }
+       
+
+}
+/*
+    ===========================
+     part3 style
+    ===========================
+*/
+.part3{
+    overflow: hidden;
+    
+    background-color: #e0e0e0;
+    padding-bottom: 2%;
+
+}
+.part3 h3{
+    text-align: center;
+    margin: 3% 0;
+    color: #333;
+    font-family: "Raleway";
+
+}
+.part3 .lap{
+
+    width: 80%;
+    margin: auto;
+    margin-top:4%;
+    margin-bottom: 4%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+.part3 .loop,.part3 .loop1,.part3 .loop2{
+
+     width: 19%;
+     text-align: center;
+     font-family: "Raleway";
+}
+
+.part3 .parg{
+    margin-top: 10%;
+}
+
+@media (max-width:1170px){
+    .part3 .lap{
+        display: block;
+    }
+    .part3 .loop,.part3 .loop1,.part3 .loop2{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .part3 .loop img,.part3 .loop1 img,.part3 .loop2 img{
+        width: 50%;
+    }
+
+}
+.part4 h3{
+    text-align: center;
+    margin: 7% 0 0;
+    color: #f1f1f1;
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: 300;
+}
+.part4 .shop{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 3% 0 5%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+@media(max-width:1170px){
+
+    .part4 .shop{
+        display: block;
+        text-align: center;
+    }
+    .part4 .skil,.part4 .skil1,.part4 .skil2{
+        margin-top: 4%;
+    }
+}
+/*
+    ===========================
+     part4 style
+    ===========================
+*/
+.part6{
+     
+  
+      font-family: "Raleway";
+      overflow: hidden;
+      background-color: #f2f2f2;
+
+}
+.paar{
+    width: 87%;
+    margin: auto;
+    color: #333;
+    overflow: hidden;
+}
+.part6 .paar h3{
+    text-align: center;
+    margin: 4% 0 ;
+    font-weight: 300;
+    font-size: 24px;
+}
+.part6 .paar .lor{
+    text-align: center;
+    margin: 4% 0;
+    line-height: 24px;
+}
+.colect{
+    display: flex;
+    margin-bottom: 5%;
+}
+.colect .nar,.colect .nar1{
+     text-align: center;
+     width: 25%;
+     font-family: "Raleway";
+     background-color: #f2f2f2;
+     color: #333;
+}
+.colect .nar ul li,.colect .nar1 ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.colect .nar img,.colect .nar1 img{
+    border-radius: 50%;
+    margin: 3% 0;
+}
+.colect .nar h2,.colect .nar1 h2{
+      font-weight: 300;
+      margin: 2% 0;
+      font-size: 18px;
+}
+.colect .nar p,.colect .nar1 p{
+    margin: 2% 0;
+    line-height: 2em;
+    font-size: 14px;
+}
+.colect .nar ul,.colect .nar1 ul{
+    margin: 3% 0 10%;
+}
+.colect .nar:hover,.colect .nar1:hover{
+    background-color: white;
+}
+
+
+/*==========*/
+.colect .nar2,.colect .nar3{
+    text-align: center;
+    width: 25%;
+    font-family: "Raleway";
+    background-color: #f2f2f2;
+    color: #333;
+}
+.colect .nar2 ul li,.colect .nar3 ul li{
+   display: inline-block;
+   margin-right: 10px;
+}
+.colect .nar2 img,.colect .nar3 img{
+   border-radius: 50%;
+   margin: 3% 0;
+}
+.colect .nar2 h2,.colect .nar3 h2{
+     font-weight: 300;
+     margin: 2% 0;
+     font-size: 18px;
+}
+.colect .nar2 p,.colect .nar3 p{
+   margin: 2% 0;
+   line-height: 2em;
+   font-size: 14px;
+}
+.colect .nar2 ul,.colect .nar3 ul{
+   margin: 3% 0 10%;
+}
+.colect .nar2:hover,.colect .nar3:hover{
+   background-color: white;
+  
+}
+/*
+    ===========================
+     part4 style
+    ===========================
+*/
+@media(max-width:1170px){
+      
+    .part6 .colect{
+       text-align: center;
+        display: block;
+    }
+    .colect .nar,.colect .nar1,.colect .nar2,.colect .nar3{
+        width: 100%;
+    }
+}
+/*
+    ===========================
+     part7 style
+    ===========================
+*/
+.part7{
+    overflow: hidden;
+    background-color: #2f2f2f;
+    
+    color: white;
+    font-family: "Raleway";
+}
+.part7 .var{
+    text-align: center;
+    margin: 5% 0% 3%;
+    font-size: 24px;
+}
+.final{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+.final .fin,.final .fin1,.final .fin2{
+    width: 33.33333333333%;
+    overflow: hidden;
+    margin-bottom: 3%;
+    font-size: 24px;
+    text-align: center;
+}
+.fin .mor{
+    font-size: 24px;
+}
+.fin .tar,.fin1 .tar{
+    font-weight: 300;
+
+}
+.fin2 ul{
+    list-style: none;
+   
+}
+.fin2 ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.part7 .footr{
+    text-align: center;
+    margin: 2% 0 1%;
+    font-size: 24px;
+}
+.form{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: rgb(175, 175, 175);
+   
+    font-family: "lato",sans-serif;
+}
+.form input{
+    display: block;
+   margin: .5% 0 2% ;
+    padding: 10px;
+    width: 100%;
+}
+.form .for{
+    height: 100px;
+    padding-bottom: 70px;
+}
+.form .for1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    background-color: #fd643d;
+    padding: 10px 0;
+    border: 1px solid #fd643d;
+    cursor: pointer;
+}
+.form .for1:hover{
+    background-color: #f6471d;
+    border: 1px dotted #f6471d;
+}
+/*
+
+================================
+
+      part7 media style
+================================
+
+
+*/
+@media(max-width:1170px){
+
+    .final{
+        display: block;
+
+    }
+    .final .fin,.final .fin1,.final .fin2{
+        width: 100%;
+    }
+
+}
